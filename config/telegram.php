@@ -34,7 +34,7 @@ return [
     'bots'                         => [
         'mybot' => [
             'username'            => 'kafisbot',
-            'token'               => env('TELEGRAM_BOT_TOKEN', '946248624:AAHO3WynAmytXc4hXIb6LTA5-m7MIKSjgvM'),
+            'token'               => env('TELEGRAM_BOT_TOKEN', '***'),
             'certificate_path'    => env('TELEGRAM_CERTIFICATE_PATH', ''),
             'webhook_url'         => env('TELEGRAM_WEBHOOK_URL', ''),
             'commands'            => [
