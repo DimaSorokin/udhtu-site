@@ -11,6 +11,10 @@ class PublicationRepository implements PublicationInterface {
     }
     public function getStudentPublication()
     {
-        return Publication::where('check_student', 1)->paginate(3);
+        return Publication::where('check_student', 'students')->paginate(3);
+    }
+    public function getMonograph()
+    {
+        return Publication::where('check_student', 'monograph')->paginate(3);
     }
 }
